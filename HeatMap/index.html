@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<style>
+		#toolkit{
+			position: absolute;
+			border: 1px solid black;
+			background-color: white;
+		}
+		.elements{
+			transform:translate(50px,80px);
+		}
+		#mySvg{
+
+		}
+		#canvas{
+			background-color:#E0FFFF;
+		}
+		</style>
+			<script type="text/javascript" src="js/HeatMapManager.js"></script>
+			<script type="text/javascript" src="js/HeatMap.js"></script>
+			<script type="text/javascript" src="js/HeatMapData.js"></script>
+	</head>
+	<body>
+			<div id="canvas"></div>
+			<div id="toolkit"></div>
+			<script type="text/javascript">
+				var heatMapManager=new HeatMapManager();
+				heatMapManager.create(150,300,500,300,"canvas","toolkit");
+			</script>
+		</body
+</html>

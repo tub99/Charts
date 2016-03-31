@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<style> 
+				#myBody{
+				background:linear-gradient(to right,orange,yellow,orange);
+			}
+			.canvas{
+				animation-name: example;
+				animation-duration: 10s;
+				height: 600px;
+				width:660px;
+				border: 2px solid black;
+				background-color: gray;
+				}
+				#myDiv{
+					color:silver;
+					font-weight: 50px;
+					font-size: 50px;
+					 text-shadow: 2px 2px 4px #000000;
+				}
+			@keyframes example 
+			{
+    			0%   {background-color: silver;}
+    			25%  {background-color: gray;}
+    			50%  {background-color: silver;}
+    			100% {background-color: gray;}
+			}
+
+		</style>
+			<script type="text/javascript" src="js/lib.js"></script>
+			<script type="text/javascript" src="js/Polygon.js"></script>
+			<script type="text/javascript" src="js/AreaChartData.js"></script>
+			<script type="text/javascript" src="js/ChartManager.js"></script>
+			<script type="text/javascript" src="js/Axis.js"></script>
+			<script type="text/javascript" src="js/Text.js"></script>
+			<script type="text/javascript" src="js/Area.js"></script>
+			<script type="text/javascript" src="js/PolyLine.js"></script>
+			<script type="text/javascript" src="js/ValDisplay.js"></script>
+			<script type="text/javascript" src="js/Circle.js"></script>
+
+		</head>
+		<body id="myBody">
+			<center>
+				<div id="myDiv">AREA CHART</div>
+			
+			<script>
+			var myData=getInfoFromJsonData();
+				var charManager=new ChartManager();
+				charManager.createChart();
+				console.log(charManager.getSVG());
+			</script>
+		</center>
+		</body>
+</html>
