@@ -14,5 +14,6 @@ This contains various kind of charts built with JavaScript,SVG and HTML
   A radar chart is a graphical method of displaying multivariate data in the form of a two-dimensional chart of three or more quantitative variables represented on axes starting from the same point. The relative position and angle of the axes is typically uninformative.<br>
   The radar chart is also known as web chart, spider chart.<br>
   The radar chart is a chart and/or plot that consists of a sequence of equi-angular spokes, called radii, with each spoke representing one of the variables. The data length of a spoke is proportional to the magnitude of the variable for the data point relative to the maximum magnitude of the variable across all data points. A line is drawn connecting the data values for each spoke.<br>
+  <b>Check out the live link hosted at<b> http://tub99.github.io/RadarChart/index.html
    <p><img align="center" src="RadarChart/screenshot/radar.PNG" ></img></p>
 <br>
