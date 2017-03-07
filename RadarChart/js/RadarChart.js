@@ -1,6 +1,6 @@
 function RadarChart()
 {
-    //SVG parameters
+    //SVG parameters ---********------
     var svgNS="http://www.w3.org/2000/svg";
     //Axis parameters
     var xOrigin=50,yOrigin=250,xUpperLimit,yUpperLimit,xLowerLimit,ylowerLimit,xDifference,yDifference;
